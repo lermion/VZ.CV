@@ -6,7 +6,7 @@ import { StateService } from '@uirouter/angularjs';
   template: require('./main.html'),
   styles: [ require('./main.scss') ]
 })
-export class Main implements OnInit {
+export class MainComponent implements OnInit {
 
 
   /*@ngInject*/

@@ -5,7 +5,7 @@ import { Component, OnInit } from 'angular-ts-decorators';
   template: require('./skills.html'),
   styles: [require('./skills.scss')]
 })
-export class Skills implements OnInit {
+export class SkillsComponent implements OnInit {
 
 
   constructor() { }

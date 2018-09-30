@@ -1,8 +1,8 @@
 import { StateProvider } from '@uirouter/angularjs';
 import { Ng1StateDeclaration } from '@uirouter/angularjs/lib/interface';
 import { getTypeName, NgModule } from 'angular-ts-decorators';
-import { Main } from './main/main';
-import { Skills } from './skills/skills';
+import { MainComponent } from './main/main.component';
+import { SkillsComponent } from './skills/skills.component';
 
 export interface UiState extends Ng1StateDeclaration {
   component?: any;
@@ -10,8 +10,8 @@ export interface UiState extends Ng1StateDeclaration {
 
 const routes: UiState[] = [
   { name: 'index', url: '', redirectTo: 'main' },
-  { name: 'main', url: '/main', component: Main},
-  { name: 'skills', url: '/skills', component: Skills }
+  { name: 'main', url: '/main', component: MainComponent},
+  { name: 'skills', url: '/skills', component: SkillsComponent }
 ];
 
 @NgModule({

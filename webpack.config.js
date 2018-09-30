@@ -39,7 +39,7 @@ module.exports = (env, argv) => {
 
   const config = {
     entry: {
-      app: sourcePath + '/main.ts',
+      app: sourcePath + '/main.component.ts',
     },
     output: {
       path: distPath,

@@ -1,9 +1,8 @@
 import { NgModule } from 'angular-ts-decorators';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { Main } from './main/main';
-import { Skills } from './skills/skills';
-import { MessageService } from './message.service';
+import { MainComponent } from './main/main.component';
+import { SkillsComponent } from './skills/skills.component';
 import './styles.css';
 
 @NgModule({
@@ -13,11 +12,11 @@ import './styles.css';
   ],
   declarations: [
     AppComponent,
-    Main,
-    Skills
+    MainComponent,
+    SkillsComponent
   ],
   providers: [
-    MessageService,
+
   ],
   bootstrap: [ AppComponent ]
 })
