@@ -409,7 +409,7 @@ constructor() {
 }
 ```
 
-Then when you run `ngt g c dashboard` in your `dashboard.component.ts` file you will see
+Then when you run `ngt g c dashboard` in your `main.ts` file you will see
 ```
 constructor() {
     console.log('Running with project id abc123');
