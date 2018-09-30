@@ -87,7 +87,7 @@
     ],
     "prefer-const": true,
     "quotemark": [
-      true,
+      false,
       "single"
     ],
     "radix": true,
@@ -127,10 +127,6 @@
     ]
   },
   "jsRules": {
-    "quotemark": [
-      "single",
-      "avoid-escape"
-    ],
     "object-literal-sort-keys": false,
     "trailing-comma": false,
     "no-trailing-whitespace": true

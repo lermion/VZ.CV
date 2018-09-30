@@ -4,6 +4,7 @@ import { AppComponent } from './app.component';
 import { MainComponent } from './main/main.component';
 import { SkillsComponent } from './skills/skills.component';
 import './styles.css';
+import {ExperienceComponent} from './experience/experience.component';
 
 @NgModule({
   id: 'AppModule',
@@ -13,7 +14,8 @@ import './styles.css';
   declarations: [
     AppComponent,
     MainComponent,
-    SkillsComponent
+    SkillsComponent,
+      ExperienceComponent
   ],
   providers: [
 
