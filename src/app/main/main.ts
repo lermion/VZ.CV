@@ -1,5 +1,4 @@
 import { Component, OnInit } from 'angular-ts-decorators';
-import { Hero } from '../hero';
 import { StateService } from '@uirouter/angularjs';
 
 @Component({

@@ -20,6 +20,7 @@ const routes: UiState[] = [
     'ui.router'
   ],
 })
+
 export class AppRoutingModule {
   static config($stateProvider: StateProvider) {
     'ngInject';
@@ -28,7 +29,7 @@ export class AppRoutingModule {
 }
 
 function getNg1StateDeclaration(state: UiState) {
-  if (state.component && typeof state.component !== 'string') {
+  if(state.component && typeof state.component !== 'string'){
     state.component = getTypeName(state.component);
   }
   return state;
